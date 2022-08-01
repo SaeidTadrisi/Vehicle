@@ -6,6 +6,7 @@ public class Car extends Vehicle implements GearBox, Trunk {
     String brand;
     String gearBoxType;
     long trunkValue;
+    String driver;
 
 
     public Car (String brand){
